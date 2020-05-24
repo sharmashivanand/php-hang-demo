@@ -14,7 +14,7 @@ echo 'pcre.backtrack_limit	1000000	1000000' . PHP_EOL;
 echo 'pcre.jit	1	1' . PHP_EOL;
 echo 'pcre.recursion_limit	100000	100000' . PHP_EOL;
 
-$contents = file_get_contents( __DIR__ . '/data.img' );
+$contents = file_get_contents( __DIR__ . '/data.bin' );
 
 // This hangs indefinitely
 preg_match( '/\..*\..*zoneid\=\d+/i', $contents );
