@@ -2,7 +2,11 @@
 
 // This functionality is a part of a scanner where data is user-supplied and the regexes OSINT supplied. The script has no control over either and just needs to do its job successfully.
 
-echo 'To ensure hang, you must confirm the following PHP configuration.';
+echo '' . PHP_EOL;
+echo '-----------------------------------------------------------------' . PHP_EOL;
+echo 'To ensure hang, you must confirm the following PHP configuration.' . PHP_EOL;
+echo '-----------------------------------------------------------------' . PHP_EOL;
+echo '' . PHP_EOL;
 echo 'pcre' . PHP_EOL;
 echo 'PCRE (Perl Compatible Regular Expressions) Support	enabled' . PHP_EOL;
 echo 'PCRE Library Version	10.34 2019-11-21' . PHP_EOL;
